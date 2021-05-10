@@ -1,0 +1,106 @@
+.frame{
+  display:block;
+  position: fixed;
+  width: 100%;
+
+}
+.button {
+  background-color: #84bf96; /* Green */
+  border: ;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+}
+
+.icon-bar {
+  width: 131%;
+  background-color: #394356;
+}
+
+
+.icon-bar a {
+  float: left;
+  width: 20%;
+  text-align: center;
+  padding: 12px 0;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 36px;
+  left:0;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #017143;
+  position: fixed;
+  top: 0;
+  left:0;
+  width: 100%;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #111;}
+
+ul.topnav li a.active {background-color: #4CAF50;}
+
+ul.topnav li.right {float: right;}
+
+.Input1{
+  position:relative;
+  top: -536px;
+  left: 818px;
+  width: 100%;
+}
+.Input2{
+    position: relative;
+    top: -541px;
+    left: 818px;
+    width: 100%;
+    height: 46vh;
+}
+.label1{
+  border: 1px solid red;
+    font-size: 11px;
+    position: relative;
+    left: 818px;
+    top: -535px;
+    width: 100%;
+    background-color: #84bf96;
+}
+.label2{
+  border: 1px solid red;
+    font-size: 11px;
+    position: relative;
+    left: 818px;
+    top: -540px;
+    width: 100%;
+    background-color: #84bf96;
+}
+.fm{
+  border: 1px solid red;
+    font-size: 11px;
+    background-color: #efa0a0;
+}
+
+.form-group{
+  display:grid;
+}
